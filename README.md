@@ -1,65 +1,34 @@
 # Lumyn Labs Releases
 
-Official release repository for Lumyn Labs SDK distributions.
+Official release repository for Lumyn Labs hardware.
 
-## What is this repository?
+## Available Releases
 
-This repository contains pre-built SDK releases for Lumyn Labs hardware. 
-Each release includes headers, compiled libraries, and example projects for 
-supported platforms.
+All releases are available on the [Releases page](https://github.com/Lumyn-Labs/Releases/releases).
 
-## Available SDKs
+### Firmware
 
-### Lumyn SDK C
-**Latest Version**: v4.1.0 (Released: 2026-01-24)
+- **ConnectorX Firmware** - Tags: `fw/x.x.x`
+- **ConnectorX Animate Firmware** - Tags: `fw/x.x.x`
 
-Pre-built C SDK for integration with C projects.
+### SDKs
 
-| Platform | Download |
-|----------|----------|
-| Linux x64 | [lumyn-sdk-c-v4.1.0-linux-x64.tar.gz](lumyn-sdk-c/v4.1.0/lumyn-sdk-c-v4.1.0-linux-x64.tar.gz) |
-| Linux ARM64 | [lumyn-sdk-c-v4.1.0-linux-arm64.tar.gz](lumyn-sdk-c/v4.1.0/lumyn-sdk-c-v4.1.0-linux-arm64.tar.gz) |
-| Windows x64 | [lumyn-sdk-c-v4.1.0-windows-x64.tar.gz](lumyn-sdk-c/v4.1.0/lumyn-sdk-c-v4.1.0-windows-x64.tar.gz) |
-| macOS ARM64 | [lumyn-sdk-c-v4.1.0-macos-arm64.tar.gz](lumyn-sdk-c/v4.1.0/lumyn-sdk-c-v4.1.0-macos-arm64.tar.gz) |
+- **Lumyn SDK C** - Tags: `sdk-c/x.x.x`
+- **Lumyn SDK C++** - Tags: `sdk-cpp/x.x.x`
 
-### Lumyn SDK C++
-**Latest Version**: v4.1.0 (Released: 2026-01-24)
+## Quick Links
 
-Pre-built C++ SDK with modern C++20 APIs.
-
-| Platform | Download |
-|----------|----------|
-| Linux x64 | [lumyn-sdk-cpp-v4.1.0-linux-x64.tar.gz](lumyn-sdk-cpp/v4.1.0/lumyn-sdk-cpp-v4.1.0-linux-x64.tar.gz) |
-| Linux ARM64 | [lumyn-sdk-cpp-v4.1.0-linux-arm64.tar.gz](lumyn-sdk-cpp/v4.1.0/lumyn-sdk-cpp-v4.1.0-linux-arm64.tar.gz) |
-| Windows x64 | [lumyn-sdk-cpp-v4.1.0-windows-x64.tar.gz](lumyn-sdk-cpp/v4.1.0/lumyn-sdk-cpp-v4.1.0-windows-x64.tar.gz) |
-| macOS ARM64 | [lumyn-sdk-cpp-v4.1.0-macos-arm64.tar.gz](lumyn-sdk-cpp/v4.1.0/lumyn-sdk-cpp-v4.1.0-macos-arm64.tar.gz) |
-
-## Getting Started
-
-1. Download the appropriate SDK for your platform
-2. Extract the archive:
-   ```bash
-   tar -xzf lumyn-sdk-{c|cpp}-v4.1.0-{platform}.tar.gz
-   ```
-3. See the included README.md for build instructions
-4. Explore example projects in the `examples/` directory
-
-## Version History
-
-| Version | Date | Notes |
-|---------|------|-------|
-| v4.1.0 | 2026-01-24 | Latest release |
-
-## Requirements
-
-- **C SDK**: C11 compatible compiler
-- **C++ SDK**: C++20 compatible compiler
-- **CMake**: 3.16 or newer (for building examples)
+| Product             | Tag Prefix | View All Releases                                           |
+| ------------------- | ---------- | ----------------------------------------------------------- |
+| ConnectorX Firmware | `fw/`      | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
+| C SDK               | `sdk-c/`   | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
+| C++ SDK             | `sdk-cpp/` | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
 
 ## Documentation
 
-Full documentation: https://docs.lumynlabs.com
+- **SDK Documentation**: <https://docs.lumynlabs.com>
+- **Hardware Info**: <https://lumynlabs.com/products/connectorx>
 
 ## Support
 
-For issues and questions, contact support@lumynlabs.com
+For issues and questions, contact <support@lumynlabs.com>
