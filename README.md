@@ -13,16 +13,14 @@ All releases are available on the [Releases page](https://github.com/Lumyn-Labs/
 
 ### SDKs
 
-- **Lumyn SDK C** - Tags: `sdk-c/x.x.x`
-- **Lumyn SDK C++** - Tags: `sdk-cpp/x.x.x`
+- **Lumyn SDK (C & C++)** - Tags: `sdk/x.x.x`
 
 ## Quick Links
 
 | Product             | Tag Prefix | View All Releases                                           |
 | ------------------- | ---------- | ----------------------------------------------------------- |
 | ConnectorX Firmware | `fw/`      | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
-| C SDK               | `sdk-c/`   | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
-| C++ SDK             | `sdk-cpp/` | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
+| C & C++ SDK         | `sdk/`     | [Releases](https://github.com/Lumyn-Labs/Releases/releases) |
 
 ## Documentation
 
